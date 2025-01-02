@@ -36,5 +36,5 @@ jobs:
             --platform linux/amd64,linux/arm64,linux/ppc64le,linux/s390x \
             --push \
             -f Dockerfile-rockylinux \
-            -t sungyism/tengine:${{ vars.BUILD_VERSION }}-rockylinux \
+            -t ghostchu/tengine-rooted:${{ vars.BUILD_VERSION }}-rockylinux \
             .
