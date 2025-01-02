@@ -1,6 +1,6 @@
 # Dockerfile - Tengine
 
-ARG USER=nginx
+ARG USER=root
 ARG CONF_DIR=/etc/nginx
 ARG HOME_DIR=/opt/tengine
 ARG DATA_DIR=/var/lib/nginx
