@@ -187,6 +187,7 @@ RUN set -x \
         --with-compat \
         --with-pcre \
         --with-pcre-jit \
+        --with-syslog \
         --add-module=modules/ngx_tongsuo_ntls \
         --add-module=modules/mod_common \
         --add-module=modules/mod_config \
